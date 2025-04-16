@@ -1,0 +1,142 @@
+{
+    "users":[
+        {
+          "id": 1,
+          "name": "Sana Kapoor",
+          "email": "sana.kapoor@example.com",
+          "password": "hashedpassword123", 
+          "avatar": {
+            "hair": "long",
+            "eyes": "green",
+            "skinTone": "medium",
+            "accessories": ["glasses"],
+            "imageUrl": "/avatars/sana.png"
+          },
+          "blogCount": 4
+        },
+        {
+          "id": 2,
+          "name": "Leo Ramirez",
+          "email": "leo.ramirez@example.com",
+          "password": "hashedpassword456",
+          "avatar": {
+            "hair": "curly",
+            "eyes": "brown",
+            "skinTone": "tan",
+            "accessories": ["beard", "earring"],
+            "imageUrl": "/avatars/leo.png"
+          },
+          "blogCount": 7
+        },
+        {
+          "id": 3,
+          "name": "Ananya Sharma",
+          "email": "ananya.sharma@example.com",
+          "password": "hashedpassword789",
+          "avatar": {
+            "hair": "short",
+            "eyes": "black",
+            "skinTone": "light",
+            "accessories": [],
+            "imageUrl": "/avatars/ananya.png"
+          },
+          "blogCount": 2
+        },
+        {
+          "id": 4,
+          "name": "Jayden Brooks",
+          "email": "jayden.brooks@example.com",
+          "password": "hashedpassword321",
+          "avatar": {
+            "hair": "wavy",
+            "eyes": "blue",
+            "skinTone": "fair",
+            "accessories": ["cap"],
+            "imageUrl": "/avatars/jayden.png"
+          },
+          "blogCount": 5
+        }
+      ],
+
+    "categories": [
+      {
+        "id": 1, 
+        "name": "All"
+      },
+      {
+        "id": 2, 
+        "name": "Lifestyle"
+      },
+      {
+        "id": 3, 
+        "name": "Travel"
+      },
+      {
+        "id": 4, 
+        "name": "Food"
+      },
+      {
+        "id": 5, 
+        "name": "Wellbeing"
+      },
+      {
+        "id": 6, 
+        "name": "Learning"
+      }
+    ],
+
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Finding Peace in the Everyday",
+        "description": "Simple moments can bring the greatest joy.",
+        "content": "Life moves fast, but taking time to pause and reflect can change everything. Here's how I build mindful habits every day.",
+        "image": "/blogs/peace.jpg",
+        "categoryId": 2,
+        "authorId": 3
+      },
+      {
+        "id": 2,
+        "title": "Tastes of Old Delhi",
+        "description": "A food journey through the spice-laden streets.",
+        "content": "From chaat to kebabs, Old Delhi offers a rich palette of flavors that tell stories of generations past.",
+        "image": "/blogs/delhi-food.jpg",
+        "categoryId": 4,
+        "authorId": 1
+      },
+      {
+        "id": 3,
+        "title": "Solo in the Sahara",
+        "description": "Traveling alone teaches you more than any classroom.",
+        "content": "The vast golden sands, the quiet winds, and the silent self-discoveries—here’s my experience crossing the desert alone.",
+        "image": "/blogs/sahara.jpg",
+        "categoryId": 3,
+        "authorId": 2
+      },
+      {
+        "id": 4,
+        "title": "Morning Rituals That Changed My Life",
+        "description": "Small consistent actions create big shifts.",
+        "content": "A structured morning can anchor your entire day. These are my 3 favorite practices to start calm and stay focused.",
+        "image": "/blogs/morning.jpg",
+        "categoryId": 5,
+        "authorId": 4
+      },
+      {
+        "id": 5,
+        "title": "Learning to Learn",
+        "description": "Meta-learning is the real superpower.",
+        "content": "It's not about what you learn, but how. Here’s how I optimize my brain for lifelong learning using simple frameworks.",
+        "image": "/blogs/learning.jpg",
+        "categoryId": 6,
+        "authorId": 5
+      }
+    ],
+    
+    "featured": [
+      {
+        "categoryId": 2,
+        "blogIds": [1, 4]
+      }
+    ]
+}
