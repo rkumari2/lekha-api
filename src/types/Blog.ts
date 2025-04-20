@@ -6,6 +6,7 @@ export interface Blog {
   image: string;
   categoryId: number;
   authorId: number;
+  date: string;
 }
 
 export interface BlogCategory {

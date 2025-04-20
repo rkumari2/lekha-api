@@ -231,7 +231,8 @@
       "content": "Life moves fast, but taking time to pause and reflect can change everything. Here's how I build mindful habits every day.",
       "image": "/blogs/peace.jpg",
       "categoryId": 2,
-      "authorId": 3
+      "authorId": 3,
+      "date": "2023-10-01T08:00:00Z"
     },
     {
       "id": 2,
@@ -240,7 +241,8 @@
       "content": "From chaat to kebabs, Old Delhi offers a rich palette of flavors that tell stories of generations past.",
       "image": "/blogs/delhi-food.jpg",
       "categoryId": 4,
-      "authorId": 1
+      "authorId": 1,
+      "date": "2023-10-01T08:00:00Z"
     },
     {
       "id": 3,
@@ -249,7 +251,8 @@
       "content": "The vast golden sands, the quiet winds, and the silent self-discoveries—here’s my experience crossing the desert alone.",
       "image": "/blogs/sahara.jpg",
       "categoryId": 3,
-      "authorId": 2
+      "authorId": 2,
+      "date": "2023-10-01T08:00:00Z"
     },
     {
       "id": 4,
@@ -258,7 +261,8 @@
       "content": "A structured morning can anchor your entire day. These are my 3 favorite practices to start calm and stay focused.",
       "image": "/blogs/morning.jpg",
       "categoryId": 5,
-      "authorId": 4
+      "authorId": 4,
+      "date": "2023-10-01T08:00:00Z"
     },
     {
       "id": 5,
@@ -267,7 +271,8 @@
       "content": "It's not about what you learn, but how. Here’s how I optimize my brain for lifelong learning using simple frameworks.",
       "image": "/blogs/learning.jpg",
       "categoryId": 6,
-      "authorId": 5
+      "authorId": 5,
+      "date": "2023-10-01T08:00:00Z"
     }
   ],
 
