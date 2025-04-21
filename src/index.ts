@@ -1,3 +1,4 @@
+import cors from "cors";
 import dotenv from "dotenv";
 import express, { Request, Response } from "express";
 import {
@@ -21,10 +22,12 @@ import {
 
 dotenv.config();
 
+const PORT = process.env.PORT || 3000;
+const APP_ORIGIN = process.env.APP_ORIGIN || "http://localhost:3001";
+
 const app = express();
 app.use(express.json());
-
-const PORT = process.env.PORT || 3000;
+app.use(cors({ origin: APP_ORIGIN }));
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Welcome to the Lekha API");
